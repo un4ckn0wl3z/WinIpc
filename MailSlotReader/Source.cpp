@@ -2,6 +2,8 @@
 #include <tchar.h>
 #include <stdio.h>
 #include <strsafe.h>
+#include <conio.h>
+#include <ctype.h>
 
 HANDLE hSlot;
 LPCTSTR SlotName = TEXT("\\\\.\\mailslot\\sample_mailslot");
@@ -116,6 +118,9 @@ BOOL WINAPI MakeSlot(LPCTSTR lpszSlotName)
         printf("CreateMailslot failed with %d\n", GetLastError());
         return FALSE;
     }
+    else printf("Mailslot created successfully.\n");
+    printf("Press any key to exit...\n");
+    _getch();
     return TRUE;
 }
 
