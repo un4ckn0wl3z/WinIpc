@@ -21,6 +21,12 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NamedPipeTransactionServer"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NamedPipeTransactionClient", "NamedPipeTransactionClient\NamedPipeTransactionClient.vcxproj", "{BC1985F7-E961-4FAA-9433-EEBBE4016CA4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailSlotCreator", "MailSlotCreator\MailSlotCreator.vcxproj", "{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailSlotReader", "MailSlotReader\MailSlotReader.vcxproj", "{FA30CEAD-C585-42DB-869F-138E2CA6C99B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MailSlotWriter", "MailSlotWriter\MailSlotWriter.vcxproj", "{510BC64F-571B-4F67-A82C-98AE3EBACAD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +107,30 @@ Global
 		{BC1985F7-E961-4FAA-9433-EEBBE4016CA4}.Release|x64.Build.0 = Release|x64
 		{BC1985F7-E961-4FAA-9433-EEBBE4016CA4}.Release|x86.ActiveCfg = Release|Win32
 		{BC1985F7-E961-4FAA-9433-EEBBE4016CA4}.Release|x86.Build.0 = Release|Win32
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Debug|x64.ActiveCfg = Debug|x64
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Debug|x64.Build.0 = Debug|x64
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Debug|x86.Build.0 = Debug|Win32
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Release|x64.ActiveCfg = Release|x64
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Release|x64.Build.0 = Release|x64
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Release|x86.ActiveCfg = Release|Win32
+		{AD81B2CF-848F-4968-AA9B-6E3FD8DC1DE4}.Release|x86.Build.0 = Release|Win32
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Debug|x64.ActiveCfg = Debug|x64
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Debug|x64.Build.0 = Debug|x64
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Debug|x86.Build.0 = Debug|Win32
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Release|x64.ActiveCfg = Release|x64
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Release|x64.Build.0 = Release|x64
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Release|x86.ActiveCfg = Release|Win32
+		{FA30CEAD-C585-42DB-869F-138E2CA6C99B}.Release|x86.Build.0 = Release|Win32
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Debug|x64.ActiveCfg = Debug|x64
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Debug|x64.Build.0 = Debug|x64
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Debug|x86.ActiveCfg = Debug|Win32
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Debug|x86.Build.0 = Debug|Win32
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Release|x64.ActiveCfg = Release|x64
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Release|x64.Build.0 = Release|x64
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Release|x86.ActiveCfg = Release|Win32
+		{510BC64F-571B-4F67-A82C-98AE3EBACAD7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
